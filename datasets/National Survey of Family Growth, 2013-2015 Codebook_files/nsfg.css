@@ -1,0 +1,200 @@
+body {
+background-color: url(/webdocs/images/blue-bar.gif);
+background-repeat: repeat-y;
+margin-top: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+padding-left: 0px;
+padding-top: 0px;
+padding-right: 0px;
+padding-bottom: 0px;
+}
+
+#skip a, #skip a:hover, #skip a:visited 
+{ 
+position:absolute; 
+left:0px; 
+top:-500px; 
+width:1px; 
+height:1px; 
+overflow:hidden;
+} 
+
+h1 {
+   padding-top: 5px;
+   margin-top: 5px;
+   font-size: 1.5em; 
+}
+
+h2 {
+   font-size: 1.3em; 
+}
+
+h3 {
+   font-size: 1.1em; 
+}
+
+h4 {
+   font-size: 1em; 
+}
+
+h5 {
+   font-size: .8em;
+}
+
+p {
+   color: #3D4242;
+   padding-left: 10px;
+   font-size: 1.0em;
+}
+
+td {
+    font-family: tahoma, verdana, arial, helvetica, geneva, sans-serif;
+    font-size: .9em;	
+ 	color: #3D4242;
+}
+
+.thinlines {
+		border-right: #777777 2pt solid; 
+		border-top: #777777 2pt solid; 
+		border-left: #777777 2pt solid; 
+		border-bottom: #777777 2pt solid;
+		font-size: smaller;
+	}
+		
+.title {
+		BACKGROUND-COLOR: #eeeeee
+}
+
+th {
+   font-size: 1.3em;  	
+   color: #3D4242; 
+}
+
+.white {
+     background-color: #ffffff; 
+}
+
+.view-strong {
+	 font-family: verdana;
+     text-align: left;
+     font-size: 1.1em;
+     font-weight: bold
+}
+
+.field {
+	 font-family: tahoma, verdana, arial, helvetica, geneva, sans-serif;
+     font-size: .9em;
+     vertical-align: top; 
+}
+
+.fieldname1 {
+     text-align: right;
+     font-family: tahoma, verdana, arial, helvetica, geneva, sans-serif;
+     font-size: .9em;
+     vertical-align: top; 
+}
+
+.fieldname {
+     text-align: center;
+     color: #3D4242;
+     font-family: tahoma, verdana, arial, helvetica, geneva, sans-serif;
+     font-size: .9em;
+     font-weight: bold;
+     vertical-align: top; 
+}
+
+.cat-label {
+	border-bottom: 1px solid #000000;
+	}
+	
+.underline {
+	text-decoration: underline;  	
+}
+
+/* LEFT MENU MOUSEOVER NAVIGATION */
+
+#nav, #nav ul { /* all lists */
+	padding: 0;
+	margin-left: -5px;
+	list-style: none;
+	float : left;
+	width : 11em;
+}
+
+#nav li { /* all list items */
+	position : relative;
+	float : left;
+	line-height : 1.25em;
+	width: 11em;
+}
+
+#nav li ul { /* second-level lists */
+	position : absolute;
+	left: -999em;
+	margin-left : 145px;
+	margin-top : -42px;
+}
+
+#nav li ul ul { /* third-and-above-level lists */
+	left: -999em;
+}
+
+#nav li a {
+	width: 11em;
+	w\idth : 10em;
+	display : block;
+	color : white;
+	text-decoration : none;
+	background-color : #000099;
+	border : none;
+	padding : 0 0.5em;
+	font:10px Verdana,Arial,Helvetica,sans-serif;
+}
+
+#nav li a:hover {
+	color : white;
+	background-color : #000099;
+}
+
+#nav li ul li a {
+	width: 19em;
+	w\idth : 18em;
+	height: auto;
+	color : white;
+	background-color : #6666cc;
+	border : 1px solid gray;
+}
+
+#nav li ul li a:hover {
+	color : white;
+	background-color : #ff6600;
+}
+
+#nav li:hover ul ul, #nav li:hover ul ul ul, #nav li.sfhover ul ul, #nav li.sfhover ul ul ul {
+	left: -999em;
+}
+
+#nav li:hover ul, #nav li li:hover ul, #nav li li li:hover ul, #nav li.sfhover ul, #nav li li.sfhover ul, #nav li li li.sfhover ul { /* lists nested under hovered list items */
+	left: auto;
+}
+
+#content {
+	margin-left : 12em;
+}
+
+/* PAGINATION */
+
+.paginateButtons {
+    font-size: 10px;
+    overflow: hidden;
+    padding: 10px 3px;
+}
+.paginateButtons a {
+    margin: 0 3px;
+    padding: 2px 6px;
+}
+.paginateButtons span {
+    padding: 2px 3px;
+}
